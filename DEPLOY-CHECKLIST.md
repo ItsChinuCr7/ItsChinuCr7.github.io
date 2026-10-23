@@ -1,12 +1,12 @@
-# Publish checklist
+# Deploy checklist — signature refresh
 
-- [ ] Run `npm install` and `npm run build` locally.
-- [ ] Open the local preview on desktop and phone-width screens.
-- [ ] Replace sample travel photography and placeholder captions with original images.
-- [ ] Add exact LinkedIn URL in `src/data/portfolio.js` if desired.
-- [ ] Check each project summary, date, certificate, percentage, and metric against the resume.
-- [ ] Decide whether the phone number should be public; the included resume PDF contains it.
-- [ ] Confirm the correct GitHub username and public repositories.
-- [ ] Push to the GitHub repository under `ItsChinuCr7`.
-- [ ] Connect the repository to Cloudflare Pages (`npm run build`, `dist`).
-- [ ] Test the public URL, resume download, GitHub cards, mobile menu, keyboard navigation, and all external links.
+1. Back up your working portfolio directory.
+2. Extract the ZIP into `D:\itschinu-portfolio\itschinu-portfolio`, replacing matching files but preserving `.git`.
+3. Use Node.js 22 or a supported Node version from `package.json`.
+4. Run `npm install`.
+5. Run `npm run build` and confirm success.
+6. Run `npm run preview` and test desktop/mobile navigation, repository loading, résumé modal/download, field guide, both initiative visuals and photo lightbox.
+7. Commit and push to `main`; do not force-push.
+8. Check GitHub Actions and verify `https://itschinucr7.github.io/` after deployment.
+
+The code atmosphere is decorative only. Check that no motion obscures text and confirm reduced-motion behavior before release.

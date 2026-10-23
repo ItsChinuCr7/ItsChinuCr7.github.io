@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#090a0a"/><g stroke="#202522" stroke-width="1"><path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200M0 490H1200M0 560H1200M70 0V630M140 0V630M210 0V630M280 0V630M350 0V630M420 0V630M490 0V630M560 0V630M630 0V630M700 0V630M770 0V630M840 0V630M910 0V630M980 0V630M1050 0V630M1120 0V630" opacity=".55"/></g><circle cx="975" cy="195" r="144" fill="#c5fa68" opacity=".12"/><circle cx="975" cy="195" r="110" fill="none" stroke="#c5fa68" stroke-width="1.5" opacity=".6"/><circle cx="975" cy="195" r="72" fill="none" stroke="#c5fa68" stroke-width="1" opacity=".4"/><circle cx="1080" cy="142" r="8" fill="#c5fa68"/><text x="96" y="190" fill="#c5fa68" font-family="monospace" font-size="22" letter-spacing="6">ITSCHINUCR7 / PORTFOLIO</text><text x="88" y="315" fill="#f2f2ed" font-family="Arial,sans-serif" font-size="86" font-weight="700">Build systems.</text><text x="88" y="415" fill="#f2f2ed" font-family="Arial,sans-serif" font-size="86" font-weight="700">Stay curious.</text><text x="96" y="500" fill="#a5aba3" font-family="monospace" font-size="22" letter-spacing="2">DATA · AUTOMATION · APPLIED AI · LIFE OUTSIDE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M620 690C735 360 800 195 970 65S1175 80 1300 -15" stroke="#315e50" stroke-opacity=".16" stroke-width="42"/>
+    <path d="M600 685C715 355 780 190 950 60S1155 75 1280 -20" stroke="#315e50" stroke-width="2"/>
+    <path d="M570 670C685 340 750 175 920 45S1125 60 1250 -35" stroke="#bd704e" stroke-width="2"/>
+    <circle cx="950" cy="276" r="158" stroke="#315e50" stroke-opacity=".2" stroke-width="2" stroke-dasharray="3 11"/>
+    <circle cx="950" cy="276" r="116" stroke="#bd704e" stroke-opacity=".45" stroke-width="1.5"/>
+  </g>
+  <circle cx="950" cy="276" r="77" fill="#203b34"/>
+  <circle cx="950" cy="276" r="66" fill="none" stroke="#f3f0e8" stroke-opacity=".5"/>
+  <text x="950" y="291" text-anchor="middle" font-family="Georgia,serif" font-size="43" fill="#f3f0e8" letter-spacing="-4">CC</text>
+  <circle cx="1032" cy="195" r="11" fill="#bd704e"/>
+  <text x="76" y="91" font-family="monospace" font-size="16" letter-spacing="4" fill="#65776a">DATA / AUTOMATION / APPLIED AI</text>
+  <text x="72" y="244" font-family="Arial,sans-serif" font-size="90" font-weight="600" letter-spacing="-6" fill="#203b34">Make sense</text>
+  <text x="72" y="343" font-family="Arial,sans-serif" font-size="90" font-weight="600" letter-spacing="-6" fill="#203b34">of the <tspan font-family="Georgia,serif" font-style="italic" font-weight="400" fill="#bd704e">mess.</tspan></text>
+  <text x="78" y="411" font-family="Georgia,serif" font-style="italic" font-size="35" fill="#63796a">Make something matter.</text>
+  <path d="M78 497H420" stroke="#bd704e" stroke-width="2"/>
+  <text x="78" y="541" font-family="monospace" font-size="14" letter-spacing="3" fill="#7e8c80">CHINMAY CHAUDHARI · PORTFOLIO</text>
+</svg>

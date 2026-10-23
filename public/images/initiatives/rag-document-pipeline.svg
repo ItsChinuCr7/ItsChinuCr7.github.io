@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
+  <title id="title">Document intelligence pipeline concept</title>
+  <desc id="desc">A visual map of PDF ingestion, chunking, hybrid retrieval, reranking, answer generation, and validation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#243b30"/>
+      <stop offset="1" stop-color="#15291f"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" x2="1">
+      <stop offset="0" stop-color="#cb8055"/>
+      <stop offset="1" stop-color="#e8bb80"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#e2d7bf" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="720" fill="url(#bg)"/>
+  <rect width="1000" height="720" fill="url(#grid)"/>
+  <circle cx="785" cy="80" r="215" fill="#b86b4a" opacity=".09"/>
+  <circle cx="150" cy="630" r="190" fill="#96a17b" opacity=".07"/>
+  <text x="62" y="70" fill="#d8ad7e" font-family="monospace" font-size="17" letter-spacing="3">APPLIED AI / SYSTEM MAP</text>
+  <text x="62" y="116" fill="#f0e4ce" font-family="Georgia,serif" font-size="38">From document to grounded answer.</text>
+  <text x="62" y="148" fill="#bfc9b8" font-family="Arial,sans-serif" font-size="16">A layered pipeline — retrieval, validation and traceability around the model.</text>
+
+  <!-- PDF ingestion -->
+  <g filter="url(#shadow)">
+    <rect x="62" y="212" width="176" height="164" rx="14" fill="#e6dbc4"/>
+    <path d="M94 245h79l20 20v77H94z" fill="#c8d0bd" stroke="#324b3b" stroke-width="2"/>
+    <path d="M173 245v21h20" fill="none" stroke="#324b3b" stroke-width="2"/>
+    <path d="M108 281h59M108 296h59M108 311h43" stroke="#5b735f" stroke-width="5" stroke-linecap="round"/>
+    <text x="83" y="352" fill="#21392c" font-family="monospace" font-size="12" letter-spacing="1">PDF INPUT</text>
+  </g>
+  <path d="M238 294H282" stroke="#d9a575" stroke-width="3" stroke-linecap="round"/>
+  <path d="M273 285l10 9-10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Chunking -->
+  <g filter="url(#shadow)">
+    <rect x="286" y="226" width="170" height="136" rx="14" fill="#d6c9ac"/>
+    <rect x="308" y="249" width="125" height="24" rx="5" fill="#748b73"/>
+    <rect x="308" y="280" width="106" height="24" rx="5" fill="#ba7655"/>
+    <rect x="308" y="311" width="116" height="24" rx="5" fill="#879b87"/>
+    <text x="308" y="348" fill="#263a2d" font-family="monospace" font-size="11">CHUNKS + SOURCE</text>
+  </g>
+  <path d="M456 294H502V258H536" stroke="#d9a575" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M527 249l10 9-10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M502 294V398H536" stroke="#d9a575" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M527 389l10 9-10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hybrid retrieval -->
+  <g filter="url(#shadow)">
+    <rect x="540" y="205" width="180" height="106" rx="13" fill="#375645" stroke="#76947a" stroke-width="1.3"/>
+    <circle cx="570" cy="238" r="12" fill="none" stroke="#e2b07c" stroke-width="3"/>
+    <circle cx="570" cy="238" r="4" fill="#e2b07c"/>
+    <text x="594" y="237" fill="#f0e4cf" font-family="Arial,sans-serif" font-weight="700" font-size="17">FAISS</text>
+    <text x="560" y="271" fill="#c8d3c2" font-family="monospace" font-size="11">SEMANTIC SEARCH</text>
+    <text x="560" y="291" fill="#c8d3c2" font-family="Arial,sans-serif" font-size="12">Meaning &amp; similarity</text>
+
+    <rect x="540" y="348" width="180" height="106" rx="13" fill="#4b3b32" stroke="#c68c61" stroke-width="1.3"/>
+    <path d="M560 376h22M560 385h30M560 394h18" stroke="#e8b47d" stroke-width="3" stroke-linecap="round"/>
+    <text x="597" y="387" fill="#f0e4cf" font-family="Arial,sans-serif" font-weight="700" font-size="17">BM25</text>
+    <text x="560" y="416" fill="#dfd0bb" font-family="monospace" font-size="11">KEYWORD SEARCH</text>
+    <text x="560" y="436" fill="#dfd0bb" font-family="Arial,sans-serif" font-size="12">Exact terms &amp; names</text>
+  </g>
+  <path d="M720 258H758V326H786" stroke="#d9a575" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M720 401H758V326" stroke="#d9a575" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M777 317l10 9-10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- reranking -->
+  <g filter="url(#shadow)">
+    <rect x="790" y="276" width="154" height="100" rx="13" fill="#d8aa79"/>
+    <path d="M814 302h70M814 315h56M814 328h43" stroke="#294333" stroke-width="5" stroke-linecap="round"/>
+    <text x="813" y="356" fill="#23392c" font-family="monospace" font-size="11">RERANK / MMR</text>
+  </g>
+  <path d="M868 376V478H762" stroke="#d9a575" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M771 469l-10 9 10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- generation -->
+  <g filter="url(#shadow)">
+    <rect x="540" y="456" width="218" height="104" rx="13" fill="#e4d8c0"/>
+    <circle cx="574" cy="489" r="15" fill="#385643"/>
+    <path d="M568 489l5 5 9-11" stroke="#f0e4cf" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="601" y="492" fill="#21392d" font-family="Arial,sans-serif" font-weight="700" font-size="17">LLM answer</text>
+    <text x="560" y="522" fill="#657564" font-family="monospace" font-size="11">GROUNDED CONTEXT</text>
+    <text x="560" y="541" fill="#455d4a" font-family="Arial,sans-serif" font-size="12">Evidence before wording</text>
+  </g>
+  <path d="M540 508H492V592H456" stroke="#d9a575" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M465 583l-10 9 10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- validation -->
+  <g filter="url(#shadow)">
+    <rect x="285" y="548" width="170" height="88" rx="13" fill="#9cab8d"/>
+    <path d="M311 579l9 9 17-20" fill="none" stroke="#23392d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="350" y="580" fill="#23392d" font-family="Arial,sans-serif" font-weight="700" font-size="15">Validate</text>
+    <text x="310" y="611" fill="#2f4b3a" font-family="monospace" font-size="10">GUARDRAILS / EVAL</text>
+  </g>
+  <path d="M285 592H250" stroke="#d9a575" stroke-width="3" stroke-linecap="round"/>
+  <path d="M259 583l-10 9 10 9" fill="none" stroke="#d9a575" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="594" fill="#f0e4cf" font-family="Arial,sans-serif" font-size="16">Sources · safety · quality checks</text>
+  <text x="62" y="622" fill="#aab8a7" font-family="Arial,sans-serif" font-size="13">Latency, token usage and retrieval metrics</text>
+
+  <path d="M62 666H938" stroke="#f0e4cf" stroke-opacity=".15"/>
+  <text x="62" y="691" fill="#aebdab" font-family="monospace" font-size="11" letter-spacing="1.5">CONCEPTUAL PIPELINE — NOT A BENCHMARK CLAIM</text>
+</svg>
